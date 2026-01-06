@@ -1,0 +1,53 @@
+/*
+You can add your own CSS here.
+
+Click the help icon above to learn more.
+*/
+
+.wp-caption-text, figcaption {
+	font-family: 'Antenna';
+	font-size: 13px;
+	line-height: 18px;
+	color: black;
+}
+
+img.aligncenter {
+   margin-bottom: 0px;
+}
+
+.wpb-js-composer .vc_tta.vc_tta-tabs .vc_tta-panel.vc_active .vc_tta-panel-title,
+.wpb-js-composer .vc_tta.vc_tta-accordion .vc_tta-panel.vc_active .vc_tta-panel-title,
+.wpb-js-composer .vc_tta.vc_tta-tabs.vc_tta-style-outline .vc_tta-panel .vc_tta-panel-title,
+.wpb-js-composer .vc_tta.vc_tta-accordion.vc_tta-style-outline .vc_tta-panel .vc_tta-panel-title
+.wpb-js-composer .vc_tta.vc_tta-tabs .vc_tta-panel.vc_tta-style-modern .vc_tta-panel-title,
+.wpb-js-composer .vc_tta.vc_tta-accordion.vc_tta-style-modern .vc_tta-panel .vc_tta-panel-title,
+.wpb-js-composer .vc_tta.vc_tta-accordion.vc_tta-style-simple_dashed .vc_tta-panel .vc_tta-panel-title {
+	font-family: 'Antenna-Bold';
+}
+
+.wpb-js-composer .vc_tta.vc_tta-tabs .vc_tta-tab a {
+    font-family: 'Antenna';
+}
+
+.wpb-js-composer .vc_tta.vc_tta-tabs .vc_tta-tab.vc_active > a,
+.wpb-js-composer .vc_tta.vc_tta-tabs.vc_tta-style-outline .vc_tta-tab a,
+.wpb-js-composer .vc_tta.vc_tta-tabs.vc_tta-style-modern .vc_tta-tab a {
+	font-family: 'Antenna-Black';
+}
+
+.wpb-js-composer .vc_tta.vc_tta-tabs .vc_tta-panel .vc_tta-panel-title,
+.wpb-js-composer .vc_tta.vc_tta-accordion .vc_tta-panel .vc_tta-panel-title {
+	font-family: 'Antenna-Light';
+}
+
+.yikes-easy-mc-form.app-sparta-style.yikes-easy-mc-form   .yikes-easy-mc-submit-button {
+	font-family: 'Antenna';
+}
+
+.yikes-mailchimp-container .splash-shop-4-style .submit-button-inline-label .yikes-easy-mc-submit-button, .yikes-mailchimp-container .agency-sparta-style .submit-button-inline-label .yikes-easy-mc-submit-button, .yikes-mailchimp-container .splash-shop-3-style .submit-button-inline-label .yikes-easy-mc-submit-button, .mailchimp-form-1 .yikes-easy-mc-submit-button,
+.mailchimp-form-3 .yikes-easy-mc-submit-button { font-family: 'Antenna'; }
+
+h4 {
+    letter-spacing: 0;
+    text-transform: none;
+}
