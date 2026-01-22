@@ -443,7 +443,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
       "similar_label_and_power": "warning",
@@ -610,6 +610,14 @@
       "version": 1
     },
     "net_format_name": "",
+    "ngspice": {
+      "fix_include_paths": true,
+      "meta": {
+        "version": 0
+      },
+      "model_mode": 4,
+      "workbook_filename": ""
+    },
     "page_layout_descr_file": "",
     "plot_directory": "",
     "space_save_all_events": true,
@@ -634,6 +642,10 @@
     [
       "ebe3da88-3e1f-4971-9b76-eaa5d66bf9a0",
       "DDR3_RAM"
+    ],
+    [
+      "186a9a10-ceb8-4f6e-bb51-97bdb1ce5378",
+      "eMMC"
     ]
   ],
   "text_variables": {}
