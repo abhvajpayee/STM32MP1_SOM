@@ -634,6 +634,10 @@
     [
       "ebe3da88-3e1f-4971-9b76-eaa5d66bf9a0",
       "DDR3_RAM"
+    ],
+    [
+      "26ebc44d-d76e-413e-ac5b-341d150514ea",
+      "EMMC"
     ]
   ],
   "text_variables": {}
