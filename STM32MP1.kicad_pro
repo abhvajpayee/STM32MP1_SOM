@@ -443,7 +443,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
       "similar_label_and_power": "warning",
@@ -610,6 +610,14 @@
       "version": 1
     },
     "net_format_name": "",
+    "ngspice": {
+      "fix_include_paths": true,
+      "meta": {
+        "version": 0
+      },
+      "model_mode": 4,
+      "workbook_filename": ""
+    },
     "page_layout_descr_file": "",
     "plot_directory": "",
     "space_save_all_events": true,
@@ -638,6 +646,14 @@
     [
       "26ebc44d-d76e-413e-ac5b-341d150514ea",
       "EMMC"
+    ],
+    [
+      "80597cef-e8ae-4f21-9d78-a841980a1ac8",
+      "SD_CARD"
+    ],
+    [
+      "8e4944f0-fccb-4ad8-9669-545f2beae811",
+      "Ethernet"
     ]
   ],
   "text_variables": {}
