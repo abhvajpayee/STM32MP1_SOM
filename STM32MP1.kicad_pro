@@ -646,6 +646,34 @@
     [
       "186a9a10-ceb8-4f6e-bb51-97bdb1ce5378",
       "eMMC"
+    ],
+    [
+      "d7cc61bd-c3cb-46cd-8fa6-d75fd1230c94",
+      "PowerManagement"
+    ],
+    [
+      "e8f6bfea-e2f6-4f9f-8356-d18c54866270",
+      "CameraSubsystem"
+    ],
+    [
+      "74d4f647-1241-4fad-88cf-b4cd080f5d81",
+      "DisplaySubsystem"
+    ],
+    [
+      "a75c2571-97c7-45a6-8769-4196c486cffa",
+      "InterfaceSubsystem"
+    ],
+    [
+      "a8cc2a74-7642-457d-9a56-b11cc579455b",
+      "GPU Subsystem"
+    ],
+    [
+      "a85e1639-3eb4-4160-b3b3-58bfc87fb018",
+      "PeriphiralsSubsystem"
+    ],
+    [
+      "5eff4b66-4469-4412-9ad8-1666b1a3bb78",
+      "MCUSubsystem"
     ]
   ],
   "text_variables": {}
