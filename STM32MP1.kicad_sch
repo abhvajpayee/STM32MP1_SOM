@@ -75,6 +75,16 @@
 		)
 		(uuid "8fc94e6a-f490-458f-a092-bf651c5e5cb1")
 	)
+	(bus
+		(pts
+			(xy 137.16 97.79) (xy 149.86 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b700097c-7ef7-4271-bafe-f2d1eb27d7f8")
+	)
 	(wire
 		(pts
 			(xy 137.16 52.07) (xy 148.59 52.07)
@@ -84,6 +94,16 @@
 			(type default)
 		)
 		(uuid "ed3ce5d5-dde8-4b2b-9526-481287123dae")
+	)
+	(bus
+		(pts
+			(xy 137.16 83.82) (xy 148.59 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "edf8a1d8-2bec-43fc-a042-f0f124e610cf")
 	)
 	(sheet
 		(at 148.59 64.77)
@@ -281,6 +301,26 @@
 				(justify right)
 			)
 		)
+		(pin "RMII[0..9]" input
+			(at 137.16 97.79 0)
+			(uuid "a6db18bc-ad4a-486b-9b2a-b4f4a5ce8905")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "uSD_BUS[0..6]" input
+			(at 137.16 83.82 0)
+			(uuid "f10931ed-9888-4791-b174-648e5b464ccc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "STM32MP1"
 				(path "/d2fe1267-1d94-424f-9612-b5ac081691c8"
@@ -363,7 +403,7 @@
 	)
 	(sheet
 		(at 149.86 95.25)
-		(size 29.21 8.89)
+		(size 29.21 22.86)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -387,12 +427,132 @@
 			)
 		)
 		(property "Sheetfile" "Ethernet.kicad_sch"
-			(at 149.86 104.7246 0)
+			(at 149.86 118.6946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "RXN" input
+			(at 179.07 107.95 0)
+			(uuid "2625686e-ee45-41a2-a797-025a16e60d92")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SYS_NRST" input
+			(at 149.86 100.33 180)
+			(uuid "b9a7afbe-e1db-48a8-857a-8a1daf1e2911")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RXP" input
+			(at 179.07 105.41 0)
+			(uuid "4c66ee5c-4656-446a-bff0-a9410b94beac")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GND" input
+			(at 179.07 115.57 0)
+			(uuid "995b328a-85fc-4257-8fba-c74993a8bd13")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "TXP" input
+			(at 179.07 100.33 0)
+			(uuid "4d76e26a-02e0-46c0-a956-d5f34585c12b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "TXN" input
+			(at 179.07 102.87 0)
+			(uuid "ee8e7a40-12cf-4eef-92ba-cdcf9a40ffd6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RMII[0..9]" input
+			(at 149.86 97.79 180)
+			(uuid "6b2f30cf-bb64-467c-b4ee-b6a07f347ee3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ETH1_NRST" input
+			(at 149.86 102.87 180)
+			(uuid "9472b60a-99c8-4674-8d5a-f91fc979e7ac")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SYS_3V3" input
+			(at 179.07 97.79 0)
+			(uuid "b111ca74-549a-463e-8956-3fd503ec3bfc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ETH1_LINK" input
+			(at 179.07 113.03 0)
+			(uuid "d63dc1e0-e7a3-4a2f-96c8-d6a47f8f320e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ETH_MDINT" input
+			(at 149.86 105.41 180)
+			(uuid "fd4d3f54-796a-416d-9c34-f9410c8b1a02")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ETH1_SPEED" input
+			(at 179.07 110.49 0)
+			(uuid "9a4d877b-52a5-4d93-a71c-203fd65c9690")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
