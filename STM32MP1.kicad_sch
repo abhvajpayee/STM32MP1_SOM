@@ -17,6 +17,16 @@
 	)
 	(bus
 		(pts
+			(xy 137.16 83.82) (xy 148.59 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3811863e-5047-4d3f-9362-45419075fc96")
+	)
+	(bus
+		(pts
 			(xy 137.16 46.99) (xy 148.59 46.99)
 		)
 		(stroke
@@ -249,6 +259,59 @@
 				(justify right)
 			)
 		)
+<<<<<<< Updated upstream
+=======
+		(pin "VREF_DDR" output
+			(at 137.16 54.61 0)
+			(uuid "47a7d5a6-5e36-4c49-8325-fb378ecb327f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VDD_DDR" output
+			(at 137.16 52.07 0)
+			(uuid "21e1019e-d433-489e-add3-b69b84f9fb5e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GND" output
+			(at 137.16 57.15 0)
+			(uuid "72eb4da8-8c81-4ddc-a276-5e4bee2fd009")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "EMMC[0..10]" input
+			(at 137.16 67.31 0)
+			(uuid "20f07408-0578-44e1-9b29-3f03bbf4663c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "uSD_BUS[0..6]" input
+			(at 137.16 83.82 0)
+			(uuid "0194706d-689e-453f-9b0c-7538a49c8afa")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+>>>>>>> Stashed changes
 		(instances
 			(project "STM32MP1"
 				(path "/d2fe1267-1d94-424f-9612-b5ac081691c8"

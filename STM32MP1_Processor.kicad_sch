@@ -7364,6 +7364,12 @@
 		(uuid "0781b855-eb50-4e5f-a9a1-2e52be3cbbaa")
 	)
 	(junction
+		(at 342.9 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0a0c79b6-3438-4eaf-9861-8289c4c19381")
+	)
+	(junction
 		(at 34.29 179.07)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7506,6 +7512,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8b2bd90d-0a4d-4311-9b28-52994e4e4385")
+	)
+	(junction
+		(at 147.32 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8b7e0cef-df0d-4275-ae9c-b8b39ae1ef0f")
 	)
 	(junction
 		(at 34.29 140.97)
@@ -7730,6 +7742,27 @@
 		(uuid "31c92231-91c7-4b44-b046-784324a82650")
 	)
 	(bus_entry
+<<<<<<< Updated upstream
+=======
+		(at 387.35 71.12)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3675cae9-c204-4da2-84e2-06b7093b4ab0")
+	)
+	(bus_entry
+		(at 384.81 172.72)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36f5a8c7-0954-47ec-ab93-a8f06a14385f")
+	)
+	(bus_entry
+>>>>>>> Stashed changes
 		(at 157.48 250.19)
 		(size 2.54 -2.54)
 		(stroke
@@ -7784,6 +7817,15 @@
 		(uuid "4735b414-9643-47d9-9adb-279b5f57e6eb")
 	)
 	(bus_entry
+		(at 384.81 167.64)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c8116dd-a580-4a67-b3dc-333dee936352")
+	)
+	(bus_entry
 		(at 175.26 250.19)
 		(size 2.54 -2.54)
 		(stroke
@@ -7836,6 +7878,15 @@
 			(type default)
 		)
 		(uuid "65b56f7a-1869-4f08-a7cf-5238c60e8b62")
+	)
+	(bus_entry
+		(at 384.81 198.12)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6afe5aed-905e-44c5-855a-6d202aadb4b1")
 	)
 	(bus_entry
 		(at 149.86 250.19)
@@ -7926,6 +7977,24 @@
 			(type default)
 		)
 		(uuid "894b57c9-773f-463a-932e-edb49ef5482a")
+	)
+	(bus_entry
+		(at 384.81 162.56)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89f3ead7-00ef-4995-9a54-a1ac32521cac")
+	)
+	(bus_entry
+		(at 384.81 203.2)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c955433-a44a-48aa-8989-cef7e431e5e4")
 	)
 	(bus_entry
 		(at 132.08 257.81)
@@ -8036,6 +8105,15 @@
 		(uuid "c20ec5e6-1fb7-4c4b-b403-b01fc0ceb8a4")
 	)
 	(bus_entry
+		(at 384.81 177.8)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c21cf728-a020-40e6-acf4-a10d9fcbd920")
+	)
+	(bus_entry
 		(at 106.68 250.19)
 		(size 2.54 -2.54)
 		(stroke
@@ -8054,6 +8132,36 @@
 		(uuid "c5b9d53a-b935-4be0-b3e1-80420b9b96b3")
 	)
 	(bus_entry
+<<<<<<< Updated upstream
+=======
+		(at 384.81 182.88)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6a667d1-c3f1-4389-a03f-a3a58c1e3d79")
+	)
+	(bus_entry
+		(at 387.35 53.34)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c720e45d-67f5-490c-8aae-3cfd642626f6")
+	)
+	(bus_entry
+		(at 387.35 48.26)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cef1f93b-36e8-4864-b50a-ba78e2017737")
+	)
+	(bus_entry
+>>>>>>> Stashed changes
 		(at 162.56 250.19)
 		(size 2.54 -2.54)
 		(stroke
@@ -8061,6 +8169,24 @@
 			(type default)
 		)
 		(uuid "cf70db86-6875-4587-ac9e-6858d691d282")
+	)
+	(bus_entry
+		(at 384.81 209.55)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0751015-6ba4-4b90-9aab-75717e81a427")
+	)
+	(bus_entry
+		(at 384.81 187.96)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d669de83-7eaf-4391-8ed8-772bd70486de")
 	)
 	(bus_entry
 		(at 215.9 260.35)
@@ -8133,6 +8259,15 @@
 			(type default)
 		)
 		(uuid "e2b6ef83-e04e-4db2-8b11-b4a3b20c5037")
+	)
+	(bus_entry
+		(at 384.81 193.04)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e555fa17-aa95-407f-871d-7fc6a6c263c5")
 	)
 	(bus_entry
 		(at 195.58 260.35)
@@ -8231,6 +8366,16 @@
 	)
 	(wire
 		(pts
+			(xy 364.49 203.2) (xy 384.81 203.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "050476a8-9214-4537-a5a3-039b8a219479")
+	)
+	(wire
+		(pts
 			(xy 34.29 181.61) (xy 40.64 181.61)
 		)
 		(stroke
@@ -8318,6 +8463,16 @@
 			(type default)
 		)
 		(uuid "09deca35-1033-4935-96f7-69c585f08f38")
+	)
+	(bus
+		(pts
+			(xy 387.35 200.66) (xy 387.35 205.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ae63fd4-9b3f-4567-b45f-78952be8c453")
 	)
 	(bus
 		(pts
@@ -8449,6 +8604,29 @@
 		)
 		(uuid "1506bda7-7a37-4307-b665-0a62d83687fd")
 	)
+<<<<<<< Updated upstream
+=======
+	(wire
+		(pts
+			(xy 149.86 39.37) (xy 149.86 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16f67cac-3272-4f2a-9ae4-adbacce03b5e")
+	)
+	(wire
+		(pts
+			(xy 364.49 55.88) (xy 387.35 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1707093b-54b3-42ff-bde9-c9997fb00ecc")
+	)
+>>>>>>> Stashed changes
 	(bus
 		(pts
 			(xy 81.28 250.19) (xy 83.82 250.19)
@@ -8531,6 +8709,39 @@
 	)
 	(bus
 		(pts
+<<<<<<< Updated upstream
+=======
+			(xy 389.89 91.44) (xy 389.89 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ebd5bab-293a-46c3-afcc-9c067b89e9fc")
+	)
+	(wire
+		(pts
+			(xy 364.49 172.72) (xy 384.81 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "218096c7-21b4-4849-9dfb-79d0bbb8b546")
+	)
+	(wire
+		(pts
+			(xy 147.32 44.45) (xy 147.32 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21bc0a89-7283-42d3-b12a-a8216e2137f0")
+	)
+	(bus
+		(pts
+>>>>>>> Stashed changes
 			(xy 104.14 250.19) (xy 101.6 250.19)
 		)
 		(stroke
@@ -8651,6 +8862,16 @@
 	)
 	(wire
 		(pts
+			(xy 364.49 193.04) (xy 384.81 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a6e5369-0ee6-4aee-b67c-cf2d3a3ff22b")
+	)
+	(wire
+		(pts
 			(xy 106.68 247.65) (xy 106.68 232.41)
 		)
 		(stroke
@@ -8681,6 +8902,16 @@
 	)
 	(wire
 		(pts
+			(xy 364.49 187.96) (xy 384.81 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3040cb55-1486-47b0-a484-3f1b4b0500c1")
+	)
+	(wire
+		(pts
 			(xy 165.1 232.41) (xy 165.1 247.65)
 		)
 		(stroke
@@ -8688,6 +8919,16 @@
 			(type default)
 		)
 		(uuid "317235ad-6a4e-4cef-97a0-3c90fdf9dc98")
+	)
+	(wire
+		(pts
+			(xy 364.49 167.64) (xy 384.81 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31e5425c-03ec-49a0-a636-1b700337a153")
 	)
 	(wire
 		(pts
@@ -8821,6 +9062,16 @@
 	)
 	(wire
 		(pts
+			(xy 364.49 182.88) (xy 384.81 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c3efeb0-8b5c-4e35-aacd-bc797f79999b")
+	)
+	(wire
+		(pts
 			(xy 34.29 115.57) (xy 34.29 113.03)
 		)
 		(stroke
@@ -8918,6 +9169,16 @@
 			(type default)
 		)
 		(uuid "47128304-9c6f-4500-8a28-182fb1634141")
+	)
+	(wire
+		(pts
+			(xy 342.9 38.1) (xy 342.9 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47ac3818-3c87-4444-97c6-a7f6253da297")
 	)
 	(wire
 		(pts
@@ -9031,6 +9292,29 @@
 	)
 	(wire
 		(pts
+<<<<<<< Updated upstream
+=======
+			(xy 364.49 48.26) (xy 387.35 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f8b4121-ecf6-4188-af36-e17015ddd356")
+	)
+	(wire
+		(pts
+			(xy 317.5 39.37) (xy 317.5 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "516fdcc4-976a-4eb3-9d2c-6b2a6c851715")
+	)
+	(wire
+		(pts
+>>>>>>> Stashed changes
 			(xy 34.29 184.15) (xy 34.29 181.61)
 		)
 		(stroke
@@ -9078,6 +9362,16 @@
 			(type default)
 		)
 		(uuid "5721075a-9dcc-4f7a-8a04-6b5e7fd98d46")
+	)
+	(bus
+		(pts
+			(xy 387.35 175.26) (xy 387.35 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5748f290-1352-4701-a2e4-747088684d34")
 	)
 	(wire
 		(pts
@@ -9218,6 +9512,16 @@
 			(type default)
 		)
 		(uuid "62652642-67a9-4604-8b17-a5d9beda9266")
+	)
+	(wire
+		(pts
+			(xy 121.92 36.83) (xy 121.92 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "632e523f-4aae-44dd-924e-8f430516f781")
 	)
 	(wire
 		(pts
@@ -9369,6 +9673,16 @@
 		)
 		(uuid "6facb835-6b1d-4c4d-8952-278c55413045")
 	)
+	(bus
+		(pts
+			(xy 387.35 215.9) (xy 389.89 215.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70943f24-03e6-40b3-9994-f7b18644b622")
+	)
 	(wire
 		(pts
 			(xy 34.29 97.79) (xy 40.64 97.79)
@@ -9408,6 +9722,16 @@
 			(type default)
 		)
 		(uuid "74d71270-f697-425c-ba9e-5cee443142b4")
+	)
+	(bus
+		(pts
+			(xy 387.35 170.18) (xy 387.35 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74d97ad6-8183-43a5-b649-e036ad9cae51")
 	)
 	(wire
 		(pts
@@ -9459,6 +9783,26 @@
 		)
 		(uuid "7dcddc5f-2f26-41a3-9431-8586b402dfb9")
 	)
+	(bus
+		(pts
+			(xy 387.35 190.5) (xy 387.35 195.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ed2eedc-08b1-4378-b774-1ee6f7ec9d0d")
+	)
+	(bus
+		(pts
+			(xy 387.35 185.42) (xy 387.35 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7fdb9810-5da2-4166-b132-c62128c89bfb")
+	)
 	(wire
 		(pts
 			(xy 34.29 123.19) (xy 40.64 123.19)
@@ -9468,6 +9812,16 @@
 			(type default)
 		)
 		(uuid "7ffd885a-86da-4613-9ac6-f81449f7da58")
+	)
+	(bus
+		(pts
+			(xy 387.35 212.09) (xy 387.35 215.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80930d02-82c3-4370-9c82-eed582a59596")
 	)
 	(wire
 		(pts
@@ -9488,6 +9842,16 @@
 			(type default)
 		)
 		(uuid "81daf140-635a-43fc-9db5-a31e7105e647")
+	)
+	(wire
+		(pts
+			(xy 345.44 38.1) (xy 345.44 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82561c9b-ab59-42c8-bd56-5d363bdb52a7")
 	)
 	(wire
 		(pts
@@ -9558,6 +9922,16 @@
 			(type default)
 		)
 		(uuid "89edd9d4-b82a-4b7f-ab57-c0828354520f")
+	)
+	(bus
+		(pts
+			(xy 387.35 180.34) (xy 387.35 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8aa47749-733b-4d86-969b-2e6749d42efe")
 	)
 	(wire
 		(pts
@@ -9669,6 +10043,16 @@
 		)
 		(uuid "9810d5e1-1b34-4207-8839-102a60cedabf")
 	)
+	(wire
+		(pts
+			(xy 53.34 39.37) (xy 53.34 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9937ac04-561d-4907-b6af-815d2c992df4")
+	)
 	(bus
 		(pts
 			(xy 190.5 260.35) (xy 193.04 260.35)
@@ -9761,6 +10145,59 @@
 	)
 	(wire
 		(pts
+<<<<<<< Updated upstream
+=======
+			(xy 361.95 162.56) (xy 384.81 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a05a2081-5ae3-4603-a7f9-01ff941d9423")
+	)
+	(wire
+		(pts
+			(xy 365.76 109.22) (xy 387.35 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0fd0e91-985a-4766-88d6-37674d0d5fb8")
+	)
+	(bus
+		(pts
+			(xy 387.35 195.58) (xy 387.35 200.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a117ffaf-ca9f-4336-9b0b-16ee108b930c")
+	)
+	(wire
+		(pts
+			(xy 365.76 96.52) (xy 387.35 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a198a06b-f8e5-4b59-a78d-80c3499f5779")
+	)
+	(wire
+		(pts
+			(xy 364.49 177.8) (xy 384.81 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1c1864b-3fa6-4207-91f0-994054eea0a1")
+	)
+	(wire
+		(pts
+>>>>>>> Stashed changes
 			(xy 204.47 243.84) (xy 204.47 242.57)
 		)
 		(stroke
@@ -9849,6 +10286,39 @@
 		)
 		(uuid "ab4eba13-3105-4948-b620-db4c7df5fd8b")
 	)
+<<<<<<< Updated upstream
+=======
+	(bus
+		(pts
+			(xy 389.89 48.26) (xy 389.89 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab96ae9b-51c5-44b9-8b8d-1e6a116699fc")
+	)
+	(wire
+		(pts
+			(xy 314.96 39.37) (xy 314.96 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad7d7a13-b4d9-4fb8-8475-51d7eb20b788")
+	)
+	(wire
+		(pts
+			(xy 325.12 36.83) (xy 325.12 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b07fdbae-d188-4109-a7ca-331356053fd0")
+	)
+>>>>>>> Stashed changes
 	(wire
 		(pts
 			(xy 34.29 168.91) (xy 40.64 168.91)
@@ -9861,6 +10331,29 @@
 	)
 	(wire
 		(pts
+<<<<<<< Updated upstream
+=======
+			(xy 266.7 36.83) (xy 266.7 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b127a22e-6064-4466-b620-e508cb644f7c")
+	)
+	(wire
+		(pts
+			(xy 55.88 39.37) (xy 55.88 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b12a8315-eab5-4905-83c8-82a61e79217b")
+	)
+	(wire
+		(pts
+>>>>>>> Stashed changes
 			(xy 34.29 128.27) (xy 40.64 128.27)
 		)
 		(stroke
@@ -9988,6 +10481,16 @@
 			(type default)
 		)
 		(uuid "bf8d38a2-5896-425a-8628-ca29a400510b")
+	)
+	(wire
+		(pts
+			(xy 139.7 39.37) (xy 139.7 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0c2a2c4-b7ef-46b8-b7ca-b438424b9c80")
 	)
 	(wire
 		(pts
@@ -10161,6 +10664,16 @@
 	)
 	(wire
 		(pts
+			(xy 364.49 209.55) (xy 384.81 209.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf5d205b-6794-4d20-9713-b0a43ddbc671")
+	)
+	(wire
+		(pts
 			(xy 91.44 247.65) (xy 91.44 232.41)
 		)
 		(stroke
@@ -10221,6 +10734,29 @@
 	)
 	(wire
 		(pts
+<<<<<<< Updated upstream
+=======
+			(xy 365.76 114.3) (xy 387.35 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d94d2aa5-3032-42ce-ae01-b9c224d10dec")
+	)
+	(wire
+		(pts
+			(xy 342.9 44.45) (xy 342.9 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9d5d238-6250-47d7-ba91-dddcd674b037")
+	)
+	(wire
+		(pts
+>>>>>>> Stashed changes
 			(xy 34.29 189.23) (xy 34.29 186.69)
 		)
 		(stroke
@@ -10401,6 +10937,16 @@
 	)
 	(bus
 		(pts
+			(xy 387.35 165.1) (xy 387.35 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e70bcc44-1cb3-4a30-9fd8-4c5c24bb9d48")
+	)
+	(bus
+		(pts
 			(xy 91.44 250.19) (xy 93.98 250.19)
 		)
 		(stroke
@@ -10418,6 +10964,16 @@
 			(type default)
 		)
 		(uuid "e82907ab-f56e-43a0-88f0-b2738905cb9c")
+	)
+	(wire
+		(pts
+			(xy 147.32 39.37) (xy 147.32 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eaf9bd8f-2970-4e17-86fc-7dbb6d9e516a")
 	)
 	(wire
 		(pts
@@ -10559,6 +11115,16 @@
 		)
 		(uuid "f5008dbd-4805-47f1-bab6-55d6e83ab6a5")
 	)
+	(bus
+		(pts
+			(xy 387.35 205.74) (xy 387.35 212.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f50a6e31-dcc3-43fc-91f5-8a9722711c7a")
+	)
 	(wire
 		(pts
 			(xy 30.48 166.37) (xy 34.29 166.37)
@@ -10599,6 +11165,39 @@
 		)
 		(uuid "fe528e96-83d1-4188-8b71-909c3003ac37")
 	)
+<<<<<<< Updated upstream
+=======
+	(bus
+		(pts
+			(xy 389.89 58.42) (xy 389.89 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "feea806d-7df1-4eb4-8bdb-bb7f2f70bf1b")
+	)
+	(wire
+		(pts
+			(xy 364.49 198.12) (xy 384.81 198.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fef492bb-f57f-47bf-8b64-444506fac699")
+	)
+	(wire
+		(pts
+			(xy 154.94 36.83) (xy 154.94 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff3c6221-670c-405d-8f88-4b36a4dc0728")
+	)
+>>>>>>> Stashed changes
 	(label "DDR_A8"
 		(at 104.14 243.84 90)
 		(effects
@@ -10659,6 +11258,39 @@
 		)
 		(uuid "0a600c69-4c7e-4a79-8d9f-a62644059f99")
 	)
+<<<<<<< Updated upstream
+=======
+	(label "ETH1"
+		(at 384.81 167.64 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0ae98de9-0142-48a2-b69a-54a89af11efe")
+	)
+	(label "uSD_BUS6"
+		(at 386.08 114.3 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0f1c9538-41a4-413b-8884-a4b333c0c90c")
+	)
+	(label "RMII1_RXD0"
+		(at 147.32 39.37 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "100c4c0f-3f6c-4db6-9f8a-227b90d45034")
+	)
+>>>>>>> Stashed changes
 	(label "DDR_A4"
 		(at 93.98 243.84 90)
 		(effects
@@ -10718,6 +11350,16 @@
 			(justify right bottom)
 		)
 		(uuid "166a0eaa-a779-4d50-8c05-c266fc7b81ea")
+	)
+	(label "RMII1_TXEN"
+		(at 121.92 36.83 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "189c9222-661e-4ff6-b93d-8244fcbf04b4")
 	)
 	(label "UDQS_N"
 		(at 137.16 233.68 270)
@@ -10779,15 +11421,104 @@
 		)
 		(uuid "283a9878-ab16-4176-adc3-26e6c7523a16")
 	)
+<<<<<<< Updated upstream
 	(label "eMMC_DATA1"
 		(at 132.08 38.1 90)
+=======
+	(label "RMII1_REFCLK"
+		(at 359.41 209.55 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
+		(uuid "28abdcbf-c6d5-47ca-9568-9f5327519e62")
+	)
+	(label "EMMC_DATA6"
+		(at 152.4 36.83 90)
+>>>>>>> Stashed changes
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+<<<<<<< Updated upstream
 		(uuid "2b780ced-05c6-424b-89c5-631d2d413a76")
+=======
+		(uuid "2905a7a3-181f-467f-9413-cb14e58e83a0")
+	)
+	(label "EMMC9"
+		(at 379.73 71.12 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "29b6a792-85b6-40ce-8ae9-d944f3ec0fe8")
+	)
+	(label "~{SYS_RST}"
+		(at 364.49 81.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2ad8ed94-ffe2-49d2-acb1-dfe73d1b161b")
+	)
+	(label "EMMC10"
+		(at 379.73 81.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2b5c2071-2669-4f8f-b7e6-464279730437")
+	)
+	(label "RMII1_MDIO"
+		(at 55.88 39.37 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2f273c24-312c-427f-a3fd-74a62b79ea9c")
+	)
+	(label "EMMC5"
+		(at 379.73 58.42 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "30127435-9173-4449-8bfa-a11019aaf8ed")
+	)
+	(label "EMMC_CMD"
+		(at 325.12 36.83 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "316edd43-34ba-4453-8e1f-cd3cf1e98c23")
+>>>>>>> Stashed changes
+	)
+	(label "RMII1_TXEN"
+		(at 361.95 162.56 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "356481bf-0329-4203-a6c5-b7e1dae160f6")
 	)
 	(label "VDD_DDR"
 		(at 29.21 80.01 180)
@@ -10859,6 +11590,49 @@
 		)
 		(uuid "3d28b16d-4174-468d-9232-069c28ce4c54")
 	)
+<<<<<<< Updated upstream
+=======
+	(label "EMMC_DATA1"
+		(at 364.49 48.26 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "427f1449-dd49-49bd-a44b-94c9c886f540")
+	)
+	(label "ETH3"
+		(at 384.81 177.8 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "479bc35c-c6d0-40df-9167-66ae4c930218")
+	)
+	(label "EMMC3"
+		(at 379.73 53.34 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "489792d0-027a-40ca-b0b3-6df141cbbae3")
+	)
+	(label "RMII1_TXD0"
+		(at 342.9 38.1 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "49412420-a327-4364-b726-34c8aca37f71")
+	)
+>>>>>>> Stashed changes
 	(label "~{CAS}"
 		(at 193.04 233.7773 270)
 		(effects
@@ -10899,15 +11673,24 @@
 		)
 		(uuid "4d867944-3fc5-4948-a90f-a554aeae305f")
 	)
+<<<<<<< Updated upstream
 	(label "eMMC_DATA0"
 		(at 129.54 38.1 90)
+=======
+	(label "RMII1_TXD1"
+		(at 361.95 172.72 0)
+>>>>>>> Stashed changes
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
+<<<<<<< Updated upstream
 		(uuid "4e3364c3-6741-42c3-9ca0-12bdbd165bfd")
+=======
+		(uuid "4e48e01f-ebe0-4d25-99c2-faf22062086d")
+>>>>>>> Stashed changes
 	)
 	(label "DDR_CTRL12"
 		(at 142.24 257.81 90)
@@ -10919,6 +11702,69 @@
 		)
 		(uuid "4fbb1693-5424-42a5-b9a0-6dacca934b21")
 	)
+<<<<<<< Updated upstream
+=======
+	(label "RMII1_MDC"
+		(at 361.95 193.04 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "508124bd-018d-4386-867e-2d27a47b3599")
+	)
+	(label "uSD_BUS2"
+		(at 386.08 91.44 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "54082d3b-a773-4886-8c0a-fd7dead374cf")
+	)
+	(label "EMMC7"
+		(at 379.73 63.5 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "57c92771-8f3d-4280-9f4a-bc1037b4de17")
+	)
+	(label "ETH1_NRST"
+		(at 361.95 203.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "58864ed3-1ebb-46e5-bb62-6962189f69e0")
+	)
+	(label "EMMC_CLK"
+		(at 364.49 71.12 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "59f10d72-e4e3-43c8-b405-2a9410b8dbea")
+	)
+	(label "uSD_DAT2"
+		(at 365.76 91.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5a83ba57-7549-404c-a16b-c47acdfd2e4a")
+	)
+>>>>>>> Stashed changes
 	(label "DQ13"
 		(at 182.88 236.22 270)
 		(effects
@@ -10938,6 +11784,16 @@
 			(justify left bottom)
 		)
 		(uuid "5dc56518-dfd6-4917-855e-271f50b852eb")
+	)
+	(label "ETH2"
+		(at 384.81 172.72 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5efb34c6-614e-4062-885a-e52a623ac747")
 	)
 	(label "DQ9"
 		(at 172.72 236.22 270)
@@ -10989,15 +11845,26 @@
 		)
 		(uuid "6c3d8942-8f63-4171-b59e-9b911028e20e")
 	)
+<<<<<<< Updated upstream
 	(label "eMMC_DATA3"
 		(at 104.14 38.1 90)
+=======
+	(label "ETH7"
+		(at 384.81 198.12 180)
+>>>>>>> Stashed changes
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
+<<<<<<< Updated upstream
 			(justify left bottom)
 		)
 		(uuid "736db877-6b14-4463-9b09-3e52d32fb358")
+=======
+			(justify right bottom)
+		)
+		(uuid "6db132d4-f7eb-407a-b5fe-be84655b0446")
+>>>>>>> Stashed changes
 	)
 	(label "DDR_CTRL13"
 		(at 139.7 257.81 90)
@@ -11079,6 +11946,29 @@
 		)
 		(uuid "88493345-a06b-4ff3-8a3c-7d26224e8b7c")
 	)
+<<<<<<< Updated upstream
+=======
+	(label "EMMC_DATA4"
+		(at 266.7 36.83 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "88551e2b-992b-47c3-bbf1-037666978fa7")
+	)
+	(label "ETH6"
+		(at 384.81 193.04 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8866c366-2229-4f3e-8187-e89a36a20955")
+	)
+>>>>>>> Stashed changes
 	(label "~{WE}"
 		(at 218.44 233.68 270)
 		(effects
@@ -11108,6 +11998,16 @@
 			(justify right bottom)
 		)
 		(uuid "8e27c37b-e19e-4a40-9c88-5106a549fdb9")
+	)
+	(label "RMII1_CRS_DV"
+		(at 139.7 39.37 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8e46d6be-0cc5-4040-9f01-441e0bb7c0a1")
 	)
 	(label "VDD_CORE"
 		(at 30.48 123.19 180)
@@ -11187,7 +12087,71 @@
 			)
 			(justify left bottom)
 		)
+<<<<<<< Updated upstream
 		(uuid "b54a3a2f-b906-4184-9374-6c55093abbc7")
+=======
+		(uuid "9ee56f4c-390f-42d8-9b86-935695655fc8")
+	)
+	(label "EMMC_DATA3"
+		(at 104.14 36.83 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a568442e-efd5-44a2-9ddf-3f21fdadd1bf")
+	)
+	(label "RMII1_CRS_DV"
+		(at 359.41 187.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a6e27110-dd7f-467a-b5b3-84362893ff5d")
+	)
+	(label "RMII1_RXD1"
+		(at 149.86 39.37 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a814ba10-b04c-4b7b-b706-11f5ce0e9ec6")
+	)
+	(label "RMII1_RXD0"
+		(at 361.95 177.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "aca0b438-200e-4cb0-a1e9-cd2244de067c")
+	)
+	(label "EMMC_DATA4"
+		(at 364.49 55.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b3cbeba0-6f06-4944-be8f-2b9388ce80cd")
+>>>>>>> Stashed changes
+	)
+	(label "RMII1_MDC"
+		(at 314.96 39.37 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b6e99306-ca2b-45dd-9912-df95b3299a77")
 	)
 	(label "DDR_BA1"
 		(at 76.2 243.84 90)
@@ -11199,6 +12163,39 @@
 		)
 		(uuid "b6f2bf4a-6066-4a56-b112-2df86d85b5ee")
 	)
+<<<<<<< Updated upstream
+=======
+	(label "EMMC_DATA5"
+		(at 364.49 58.42 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bb59861f-ff9c-4050-9885-441c2d3b2410")
+	)
+	(label "ETH8"
+		(at 384.81 203.2 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "bc3afecc-e950-4649-bd8b-a667095ee792")
+	)
+	(label "RMII1_REFCLK"
+		(at 53.34 39.37 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bc657e7b-1614-48e9-9b54-3c63c114250f")
+	)
+>>>>>>> Stashed changes
 	(label "ODT"
 		(at 208.28 233.68 270)
 		(effects
@@ -11249,6 +12246,49 @@
 		)
 		(uuid "c7b154fe-d5b3-49e5-bdf9-b25bf9af9d7e")
 	)
+<<<<<<< Updated upstream
+=======
+	(label "uSD_DAT3"
+		(at 365.76 93.98 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ca1e39bb-c30c-4e06-8577-b34eb165f752")
+	)
+	(label "EMMC_CLK"
+		(at 231.14 36.83 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ca52f244-2c43-4506-a06c-ccf62656735f")
+	)
+	(label "RMII1_MDIO"
+		(at 361.95 198.12 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cb054784-8589-408a-9948-44813c1d6f0e")
+	)
+	(label "ETH9"
+		(at 384.81 209.55 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "cf2e2dcf-9a76-492b-93e5-821eb9ff38e0")
+	)
+>>>>>>> Stashed changes
 	(label "DDR_A10"
 		(at 109.22 243.84 90)
 		(effects
@@ -11279,6 +12319,29 @@
 		)
 		(uuid "d9645deb-0718-4b49-b02b-de992aebfc4e")
 	)
+<<<<<<< Updated upstream
+=======
+	(label "EMMC_DATA7"
+		(at 154.94 36.83 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "dc0ff23e-e95f-4690-be3c-13610cfdd921")
+	)
+	(label "ETH1_NRST"
+		(at 317.5 39.37 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e2815cc9-86a0-4a13-b69e-711a4e01cd4e")
+	)
+>>>>>>> Stashed changes
 	(label "UDQS_P"
 		(at 139.7 233.68 270)
 		(effects
@@ -11299,6 +12362,49 @@
 		)
 		(uuid "e562029e-96ad-48be-8739-e76a2ada1535")
 	)
+<<<<<<< Updated upstream
+=======
+	(label "ETH4"
+		(at 384.81 182.88 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e7e40cf6-ef01-459d-b95a-d7f2fe26cc73")
+	)
+	(label "uSD_BUS1"
+		(at 386.08 109.22 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e7f54f86-55ca-4c98-91a1-433d01423b9c")
+	)
+	(label "~{SYS_RST}"
+		(at 50.8 237.49 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e93c6c7f-51f6-4c81-a886-28d260dfd055")
+	)
+	(label "RMII1_RXD1"
+		(at 361.95 182.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ed0cbcfb-b7e0-4ac6-9fdc-411747c70c73")
+	)
+>>>>>>> Stashed changes
 	(label "DDR_A0"
 		(at 83.82 243.84 90)
 		(effects
@@ -11319,6 +12425,29 @@
 		)
 		(uuid "ee92c237-93ca-42ed-b0f9-aba3a8400e13")
 	)
+<<<<<<< Updated upstream
+=======
+	(label "RMII1_TXD1"
+		(at 345.44 38.1 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f06c4a32-a116-42c4-92ea-c510d7004bc1")
+	)
+	(label "EMMC_DATA5"
+		(at 116.84 36.83 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f1b12ec0-de30-4932-946a-3b2ee5c8eb41")
+	)
+>>>>>>> Stashed changes
 	(label "DDR_CTRL3"
 		(at 213.36 257.81 90)
 		(effects
@@ -11339,6 +12468,59 @@
 		)
 		(uuid "f4889eb5-7054-4e58-adbe-8f2d062241cd")
 	)
+<<<<<<< Updated upstream
+=======
+	(label "EMMC0"
+		(at 379.73 45.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f490f79e-3618-4c80-97fa-17d2b2987cc6")
+	)
+	(label "ETH5"
+		(at 384.81 187.96 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f538ee16-02bb-4261-884a-79ed800c1a74")
+	)
+	(label "EMMC_DATA6"
+		(at 364.49 60.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f57504e0-b578-430f-be12-db0b455e3331")
+	)
+	(label "RMII1_TXD0"
+		(at 361.95 167.64 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f57d48d3-d367-4e65-a3f9-bca8c3d931d3")
+	)
+	(label "uSD_BUS3"
+		(at 386.08 93.98 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f5d4c3eb-baa0-4d00-a4c7-067037a94a05")
+	)
+>>>>>>> Stashed changes
 	(label "DDR_BA2"
 		(at 78.74 243.84 90)
 		(effects
@@ -11379,6 +12561,29 @@
 		)
 		(uuid "fa491675-7aae-46e3-b25a-2b9e7696c8c1")
 	)
+<<<<<<< Updated upstream
+=======
+	(label "EMMC6"
+		(at 379.73 60.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fb44223b-138c-4b73-a4a2-5c626b7aa2aa")
+	)
+	(label "ETH0"
+		(at 384.81 162.56 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "fda69373-96cf-4032-a3f4-fed972e8fe5d")
+	)
+>>>>>>> Stashed changes
 	(label "~{RAS}"
 		(at 210.82 233.68 270)
 		(effects
@@ -11399,6 +12604,30 @@
 		)
 		(uuid "ff54cad6-16b7-40b7-9eda-983d59eb3205")
 	)
+<<<<<<< Updated upstream
+=======
+	(label "EMMC_CMD"
+		(at 364.49 68.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ff8d43a6-3f37-46d0-bef0-bc8ff3e30925")
+	)
+	(hierarchical_label "ETH[0..9]"
+		(shape bidirectional)
+		(at 389.89 215.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0ebf0870-1bd1-4245-9f82-c51f1b2ca41a")
+	)
+>>>>>>> Stashed changes
 	(hierarchical_label "VREF_DDR"
 		(shape output)
 		(at 215.9 241.3 270)
