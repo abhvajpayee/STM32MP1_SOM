@@ -15,6 +15,26 @@
 		)
 		(uuid "20318860-a30e-4f52-a311-d67faa41795c")
 	)
+	(wire
+		(pts
+			(xy 137.16 57.15) (xy 148.59 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a768b51-cda5-402e-a18b-5502491183a4")
+	)
+	(wire
+		(pts
+			(xy 137.16 54.61) (xy 148.59 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c26f422-484a-49ff-b820-b870eb550722")
+	)
 	(bus
 		(pts
 			(xy 137.16 83.82) (xy 148.59 83.82)
@@ -47,6 +67,16 @@
 	)
 	(bus
 		(pts
+			(xy 137.16 67.31) (xy 148.59 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e4e8f87-cbc8-44a5-a25f-5e5c48734ed2")
+	)
+	(bus
+		(pts
 			(xy 137.16 41.91) (xy 148.59 41.91)
 		)
 		(stroke
@@ -55,97 +85,19 @@
 		)
 		(uuid "8fc94e6a-f490-458f-a092-bf651c5e5cb1")
 	)
-	(hierarchical_label "eMMC_CMD"
-		(shape bidirectional)
-		(at 137.16 77.47 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
+	(wire
+		(pts
+			(xy 137.16 52.07) (xy 148.59 52.07)
 		)
-		(uuid "2f46679d-7367-4bf6-a31d-dad3ad8ffd14")
-	)
-	(hierarchical_label "eMMC_CLK"
-		(shape bidirectional)
-		(at 148.59 80.01 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
+		(stroke
+			(width 0)
+			(type default)
 		)
-		(uuid "35dde3bb-883c-4f48-8357-3cf6a416dcb0")
-	)
-	(hierarchical_label "eMMC_RST"
-		(shape bidirectional)
-		(at 148.59 82.55 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "38b4410e-720f-4b06-ba05-ce7c26da2d81")
-	)
-	(hierarchical_label "eMMC_DATA[0..7]"
-		(shape bidirectional)
-		(at 148.59 74.93 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "3f8067ee-0d06-42db-90b2-cd2c30ede335")
-	)
-	(hierarchical_label "eMMC_DATA[0..7]"
-		(shape bidirectional)
-		(at 137.16 74.93 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "57a036e1-a9a7-446d-bf29-70552b7f3e59")
-	)
-	(hierarchical_label "eMMC_RST"
-		(shape bidirectional)
-		(at 137.16 82.55 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "79c92026-aa68-4ca8-a7fe-a8bb2d63939e")
-	)
-	(hierarchical_label "eMMC_CLK"
-		(shape bidirectional)
-		(at 137.16 80.01 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "ac2cd4d6-97c7-47de-b7c6-7992b71fce05")
-	)
-	(hierarchical_label "eMMC_CMD"
-		(shape bidirectional)
-		(at 148.59 77.47 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "eaf77bc6-99bd-4480-a882-f6db75191da1")
+		(uuid "ed3ce5d5-dde8-4b2b-9526-481287123dae")
 	)
 	(sheet
-		(at 148.59 73.66)
-		(size 30.48 12.7)
+		(at 148.59 64.77)
+		(size 25.4 10.16)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -158,9 +110,9 @@
 		(fill
 			(color 0 0 0 0.0000)
 		)
-		(uuid "186a9a10-ceb8-4f6e-bb51-97bdb1ce5378")
-		(property "Sheetname" "eMMC"
-			(at 148.59 72.9484 0)
+		(uuid "26ebc44d-d76e-413e-ac5b-341d150514ea")
+		(property "Sheetname" "EMMC"
+			(at 148.59 64.0584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -168,13 +120,53 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "eMMC.kicad_sch"
-			(at 148.59 86.9446 0)
+		(property "Sheetfile" "EMMC.kicad_sch"
+			(at 148.59 75.5146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "GND" output
+			(at 173.99 72.39 0)
+			(uuid "5a9ad998-ff79-4e25-afa2-6c9978079527")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "EMMC[0..10]" input
+			(at 148.59 67.31 180)
+			(uuid "dd27b7d9-1b8e-43e1-8eb6-3beee113dce0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VDD_EMMC" output
+			(at 173.99 67.31 0)
+			(uuid "d69f2fc2-68ea-4472-8e8f-acd3dbc2c576")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SYS_3V3" output
+			(at 173.99 69.85 0)
+			(uuid "e72cfe14-d4dd-43f6-9de3-3193815009ff")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
@@ -259,8 +251,6 @@
 				(justify right)
 			)
 		)
-<<<<<<< Updated upstream
-=======
 		(pin "VREF_DDR" output
 			(at 137.16 54.61 0)
 			(uuid "47a7d5a6-5e36-4c49-8325-fb378ecb327f")
@@ -311,7 +301,6 @@
 				(justify right)
 			)
 		)
->>>>>>> Stashed changes
 		(instances
 			(project "STM32MP1"
 				(path "/d2fe1267-1d94-424f-9612-b5ac081691c8"
@@ -321,8 +310,8 @@
 		)
 	)
 	(sheet
-		(at 236.22 74.93)
-		(size 36.83 16.51)
+		(at 148.59 81.28)
+		(size 21.59 7.62)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -335,9 +324,9 @@
 		(fill
 			(color 0 0 0 0.0000)
 		)
-		(uuid "5eff4b66-4469-4412-9ad8-1666b1a3bb78")
-		(property "Sheetname" "MCUSubsystem"
-			(at 236.22 74.2184 0)
+		(uuid "80597cef-e8ae-4f21-9d78-a841980a1ac8")
+		(property "Sheetname" "SD_CARD"
+			(at 148.59 80.5684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -345,8 +334,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "realtimecontrol.kicad_sch"
-			(at 236.22 92.0246 0)
+		(property "Sheetfile" "SD_CARD.kicad_sch"
+			(at 148.59 89.4846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -354,223 +343,34 @@
 				(justify left top)
 			)
 		)
-		(property "Field2" ""
-			(at 236.22 74.93 0)
+		(pin "VSS" input
+			(at 170.18 86.36 0)
+			(uuid "9be29555-17b5-4021-8aae-b6195578a1ed")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+				(justify right)
 			)
 		)
-		(instances
-			(project "STM32MP1"
-				(path "/d2fe1267-1d94-424f-9612-b5ac081691c8"
-					(page "11")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 193.04 68.58)
-		(size 29.21 15.24)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "74d4f647-1241-4fad-88cf-b4cd080f5d81")
-		(property "Sheetname" "DisplaySubsystem"
-			(at 193.04 67.8684 0)
+		(pin "VDD" input
+			(at 170.18 83.82 0)
+			(uuid "7231b392-70d3-4359-b959-af0835cf7ae8")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify right)
 			)
 		)
-		(property "Sheetfile" "Display.kicad_sch"
-			(at 193.04 84.4046 0)
+		(pin "uSD_BUS[0..6]" input
+			(at 148.59 83.82 180)
+			(uuid "cd59260b-fdd5-4b99-8037-ba811440af86")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "STM32MP1"
-				(path "/d2fe1267-1d94-424f-9612-b5ac081691c8"
-					(page "7")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 193.04 101.6)
-		(size 30.48 20.32)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "a75c2571-97c7-45a6-8769-4196c486cffa")
-		(property "Sheetname" "InterfaceSubsystem"
-			(at 193.04 100.8884 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "Interfaces.kicad_sch"
-			(at 193.04 122.5046 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "STM32MP1"
-				(path "/d2fe1267-1d94-424f-9612-b5ac081691c8"
-					(page "8")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 236.22 43.18)
-		(size 36.83 17.78)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "a85e1639-3eb4-4160-b3b3-58bfc87fb018")
-		(property "Sheetname" "PeriphiralsSubsystem"
-			(at 236.22 42.4684 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "Peripherals.kicad_sch"
-			(at 236.22 61.5446 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "STM32MP1"
-				(path "/d2fe1267-1d94-424f-9612-b5ac081691c8"
-					(page "10")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 236.22 19.05)
-		(size 36.83 13.97)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "a8cc2a74-7642-457d-9a56-b11cc579455b")
-		(property "Sheetname" "GPU Subsystem"
-			(at 236.22 18.3384 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "AI.kicad_sch"
-			(at 236.22 33.6046 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "STM32MP1"
-				(path "/d2fe1267-1d94-424f-9612-b5ac081691c8"
-					(page "9")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 191.77 19.05)
-		(size 29.21 11.43)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "d7cc61bd-c3cb-46cd-8fa6-d75fd1230c94")
-		(property "Sheetname" "PowerManagement"
-			(at 191.77 18.3384 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "Power.kicad_sch"
-			(at 191.77 31.0646 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
+				(justify left)
 			)
 		)
 		(instances
@@ -582,8 +382,8 @@
 		)
 	)
 	(sheet
-		(at 193.04 44.45)
-		(size 27.94 13.97)
+		(at 149.86 95.25)
+		(size 29.21 8.89)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -596,9 +396,9 @@
 		(fill
 			(color 0 0 0 0.0000)
 		)
-		(uuid "e8f6bfea-e2f6-4f9f-8356-d18c54866270")
-		(property "Sheetname" "CameraSubsystem"
-			(at 193.04 43.7384 0)
+		(uuid "8e4944f0-fccb-4ad8-9669-545f2beae811")
+		(property "Sheetname" "Ethernet"
+			(at 149.86 94.5384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -606,8 +406,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "Camera.kicad_sch"
-			(at 193.04 59.0046 0)
+		(property "Sheetfile" "Ethernet.kicad_sch"
+			(at 149.86 104.7246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -625,7 +425,7 @@
 	)
 	(sheet
 		(at 148.59 39.37)
-		(size 29.21 12.7)
+		(size 20.32 20.32)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -649,7 +449,7 @@
 			)
 		)
 		(property "Sheetfile" "DDR3_RAM.kicad_sch"
-			(at 148.59 52.6546 0)
+			(at 148.59 60.2746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -668,33 +468,33 @@
 			)
 		)
 		(pin "VDD_DDR" output
-			(at 177.8 44.45 0)
+			(at 148.59 52.07 180)
 			(uuid "d6fa560e-bacc-423f-8bf5-07e2c0a84c44")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(pin "GND" output
-			(at 177.8 49.53 0)
+			(at 148.59 57.15 180)
 			(uuid "972a48c5-b8ec-4413-8ab6-6828e5a1ac5d")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(pin "VREF_DDR" output
-			(at 177.8 46.99 0)
+			(at 148.59 54.61 180)
 			(uuid "592059b6-821a-4aee-9ff6-da93568ec0e8")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(pin "DDR_DQ[0..15]" input
