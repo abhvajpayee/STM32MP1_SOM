@@ -188,8 +188,140 @@
 		)
 	)
 	(sheet
-		(at 38.1 38.1)
-		(size 99.06 86.36)
+		(at 149.86 123.19)
+		(size 24.13 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "2f86f622-2f0c-4def-a681-4591af57a6a2")
+		(property "Sheetname" "Wifi"
+			(at 149.86 122.4784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "wifi.kicad_sch"
+			(at 149.86 144.0946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "WLAN_WAKE" input
+			(at 149.86 130.81 180)
+			(uuid "32e26d69-23a3-46d6-8bfd-5e7db59e2ae3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GND" input
+			(at 173.99 128.27 0)
+			(uuid "b85c5b97-9572-4430-8d42-79555f02a5e4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "BT_EN" input
+			(at 149.86 133.35 180)
+			(uuid "638557d8-292e-4cd5-8d66-b3ce16976a30")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "WLAN_EN" input
+			(at 149.86 125.73 180)
+			(uuid "9341dc5a-e780-475a-ae88-4e6d6f5cbad3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "BT_WAKE_HOST" input
+			(at 149.86 140.97 180)
+			(uuid "7785ae9c-f0e8-4e55-9de7-1e5b9f1b864f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "HOST_WAKE_BT" input
+			(at 149.86 138.43 180)
+			(uuid "48bcce86-d41f-434c-9249-11d279ee0c98")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SYS_3V3" input
+			(at 173.99 125.73 0)
+			(uuid "a595f396-d96e-471d-8f84-48ab411f6993")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "BT_UART[0..3]" input
+			(at 149.86 135.89 180)
+			(uuid "5c9b2d80-460c-4271-b216-11a667783dc2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SDIO[0..5]" input
+			(at 149.86 128.27 180)
+			(uuid "78a471ee-9deb-46b1-917b-7b3c32914e12")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "STM32MP1"
+				(path "/d2fe1267-1d94-424f-9612-b5ac081691c8"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 83.82 38.1)
+		(size 53.34 86.36)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -204,7 +336,7 @@
 		)
 		(uuid "4cfee6c7-5623-4e20-82df-8c56ddf2278e")
 		(property "Sheetname" "STM32MP1_Processor"
-			(at 38.1 37.3884 0)
+			(at 83.82 37.3884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -213,7 +345,7 @@
 			)
 		)
 		(property "Sheetfile" "STM32MP1_Processor.kicad_sch"
-			(at 38.1 125.0446 0)
+			(at 83.82 125.0446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -321,6 +453,56 @@
 				(justify right)
 			)
 		)
+		(pin "VDDA_1V8" input
+			(at 83.82 58.42 180)
+			(uuid "9f9798a7-f3f2-43c1-bd08-537d19187d18")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VBAT" input
+			(at 83.82 87.63 180)
+			(uuid "2a5bb3e6-c011-4cfc-a574-a0cdfe75be7a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VDD" input
+			(at 83.82 40.64 180)
+			(uuid "50e7af85-1d8a-482d-821e-58a6ffabe50a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VREF+" input
+			(at 83.82 66.04 180)
+			(uuid "3ef197fa-e040-4c70-89c2-98786bb2dd46")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VDD_CORE" input
+			(at 83.82 43.18 180)
+			(uuid "b25de4d0-d040-407b-96c9-f14aeda000a2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "STM32MP1"
 				(path "/d2fe1267-1d94-424f-9612-b5ac081691c8"
@@ -397,6 +579,238 @@
 			(project "STM32MP1"
 				(path "/d2fe1267-1d94-424f-9612-b5ac081691c8"
 					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 49.53 38.1)
+		(size 19.05 48.26)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "84225895-13cd-4b89-b717-1a667c2c36a3")
+		(property "Sheetname" "PMIC"
+			(at 49.53 37.3884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "PMIC.kicad_sch"
+			(at 49.53 86.9446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "VDD_CORE" input
+			(at 68.58 43.18 0)
+			(uuid "442ac714-4cf9-4992-b9b0-6dd00e9c10d3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "1V2_HDMI" input
+			(at 68.58 63.5 0)
+			(uuid "1ed44cc1-420b-4519-91a4-535304835cb6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "POWER_ON" output
+			(at 68.58 71.12 0)
+			(uuid "2574a26e-1bdb-4d1e-8018-2f4c302764ad")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "3V3_HDMI" input
+			(at 68.58 60.96 0)
+			(uuid "6154558a-2f16-4174-b4c1-a2cba38ab070")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "5V_VIN" input
+			(at 49.53 40.64 180)
+			(uuid "5308cfa4-5489-4785-a54d-7cd0a94fff35")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VDD" input
+			(at 68.58 40.64 0)
+			(uuid "e9baffe8-af1f-4094-9a6c-2e988a0f126f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PMIC_WAKEUP" output
+			(at 68.58 73.66 0)
+			(uuid "d4ada0d6-85ac-4126-ab70-75c9fdaf7b2e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PA0_WKUP" input
+			(at 68.58 76.2 0)
+			(uuid "aa03643e-b29a-450e-b1e9-5b68c7133f9f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VDDA" input
+			(at 68.58 58.42 0)
+			(uuid "c0719cd3-7379-4d97-8b91-68ddc75484fe")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "I2C4_SCL" output
+			(at 68.58 83.82 0)
+			(uuid "75450c56-4f25-4bf0-8115-b56c638874d3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GND" output
+			(at 49.53 43.18 180)
+			(uuid "fef171f1-fe5f-4979-8f31-92ef617040cf")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VDD_DDR" input
+			(at 68.58 55.88 0)
+			(uuid "efff6baa-bb65-47ba-b344-94a843f92471")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "I2C4_SDA" output
+			(at 68.58 81.28 0)
+			(uuid "85760b00-9b91-4012-bc9b-ca9977980842")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "NRST" output
+			(at 68.58 78.74 0)
+			(uuid "51fa3845-0ae0-4da6-aef1-d16f12c8570b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VTT_DDR" input
+			(at 68.58 53.34 0)
+			(uuid "07609586-55f6-4835-a9ab-d32740457e7f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "3V3" input
+			(at 68.58 45.72 0)
+			(uuid "786e7054-9859-4e2c-8241-3cc526d46dd2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VREF_DDR" input
+			(at 68.58 50.8 0)
+			(uuid "4bb162b5-9140-40c4-9344-f6788e400a36")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VDD_USB" input
+			(at 68.58 48.26 0)
+			(uuid "4b9a6f39-9c3e-4bdd-b459-7db8bdfa10f6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "1V8_AUDIO" input
+			(at 68.58 66.04 0)
+			(uuid "4397d0d2-bb8e-44e7-8921-542b35f675b6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "STM32MP1"
+				(path "/d2fe1267-1d94-424f-9612-b5ac081691c8"
+					(page "8")
 				)
 			)
 		)

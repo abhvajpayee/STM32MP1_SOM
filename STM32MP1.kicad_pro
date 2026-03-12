@@ -654,6 +654,14 @@
     [
       "8e4944f0-fccb-4ad8-9669-545f2beae811",
       "Ethernet"
+    ],
+    [
+      "2f86f622-2f0c-4def-a681-4591af57a6a2",
+      "Wifi"
+    ],
+    [
+      "84225895-13cd-4b89-b717-1a667c2c36a3",
+      "PMIC"
     ]
   ],
   "text_variables": {}
